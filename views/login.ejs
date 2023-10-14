@@ -1,0 +1,26 @@
+<html>
+    <head>
+     
+     
+    </head>
+    <body>
+     <div class="form">   
+        
+        <p>LOGIN</p>
+
+
+        <div class="form-in">
+        <form action="/login" method="post">
+            Username:
+            <input type="text" name="username" required>
+            Password:
+            <input type="password" name="password" required><br>
+            <input type="submit">
+        </form>
+        </div>
+        <a href="register">Not Registered?</a>
+        </div>
+
+        <%- include("partials/footer.ejs"); %>
+    </body>
+</html>

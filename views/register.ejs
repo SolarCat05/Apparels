@@ -1,0 +1,26 @@
+<html>
+    <head>
+ 
+   
+    </head>
+    <body class="form">
+        
+        <h2>REGISTER</h2>
+
+        <div class="form-in">
+        <form action="/register" method="post">
+            Username:
+            <input type="text" name="username" required>
+            Email
+            <input type="email" name="email" required><br>
+            Account Type:
+            <input type="String" name="acType" required><br>
+            Password:
+            <input type="password" name="password" required><br>
+            <input type="submit">
+        </form>
+        </div>
+
+        <%- include("partials/footer.ejs"); %>
+    </body>
+</html>
